@@ -1,18 +1,6 @@
-# Números Primos
-###  Determinar los números primos hasta un natural 'n'.
-- def es_primo(n):
-    if n < 2:
-        return False
-    for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-            return False
-    return True
+### Números Primos
+1. Determinar los números primos hasta un natural 'n'.
 
-- def encontrar_primos(hasta):
-    return [for n in range(2, hasta + 1) if es_primo(n)]
+2. Solicitar el número x al usuario
 
-### Solicitar el número x al usuario
-x = int(input("Introduce un número hasta el cual buscar números primos: "))
-primos = encontrar_primos(x)
-
-print("Números primos hasta, x,: ,primos")
+![alt text](image.png)

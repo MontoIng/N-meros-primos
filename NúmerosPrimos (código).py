@@ -1,6 +1,6 @@
 # Números Primos
 ###  Determinar los números primos hasta un natural 'n'.
-- def es_primo(n):
+def es_primo(n):
     if n < 2:
         return False
     for i in range(2, int(n**0.5) + 1):
@@ -8,7 +8,7 @@
             return False
     return True
 
-- def encontrar_primos(hasta):
+def encontrar_primos(hasta):
     return [for n in range(2, hasta + 1) if es_primo(n)]
 
 ### Solicitar el número x al usuario
